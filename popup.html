@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<a href="">
+			<img src="http://images5.fanpop.com/image/photos/31300000/beautiful-heart-pic-beautiful-pictures-31395948-333-500.jpg" width="50" height="50" alt="Click to enlarge"
+			onclick="enlarge(this)" />
+		</a>
+		<a href="">
+			<img src="https://s-media-cache-ak0.pinimg.com/736x/0e/38/60/0e38604bb8c49acf8eb409dc5f9caa15.jpg" width="50" height="50" alt="Click to enlarge" onclick="enlarge(this)" />
+		</a>
+		
+	
+	<script type="text/javascript">
+		var windowFeatures = "menubar=no,status=no,scrollbars=no,toolbar=no,resizable=no,width=500,height=350,left=400,top=100";
+		
+		function enlarge(x)  {
+			window.open(
+				x.src,
+				'largeimage',
+				windowFeatures
+			);
+		}
+	</script>
+	</body>
+	
+
+</html>
